@@ -2,34 +2,38 @@
 using Xamarin.Forms;
 using App3.Views;
 using Xamarin.Forms.Xaml;
+using Microsoft.AppCenter;
+using Microsoft.AppCenter.Analytics;
+using Microsoft.AppCenter.Crashes;
 
-[assembly: XamlCompilation (XamlCompilationOptions.Compile)]
+[assembly: XamlCompilation(XamlCompilationOptions.Compile)]
 namespace App3
 {
-	public partial class App : Application
-	{
-		
-		public App ()
-		{
-			InitializeComponent();
+    public partial class App : Application
+    {
 
+        public App()
+        {
+            InitializeComponent();
 
-			MainPage = new MainPage();
-		}
+            AppCenter.Start("android=de525739-817f-494b-8b99-eeaa7bfa33ee;", typeof(Analytics), typeof(Crashes));
 
-		protected override void OnStart ()
-		{
-			// Handle when your app starts
-		}
+            MainPage = new MainPage();
+        }
 
-		protected override void OnSleep ()
-		{
-			// Handle when your app sleeps
-		}
+        protected override void OnStart()
+        {
+            // Handle when your app starts
+        }
 
-		protected override void OnResume ()
-		{
-			// Handle when your app resumes
-		}
-	}
+        protected override void OnSleep()
+        {
+            // Handle when your app sleeps
+        }
+
+        protected override void OnResume()
+        {
+            // Handle when your app resumes
+        }
+    }
 }
