@@ -14,17 +14,17 @@ namespace App3.Views
         {
             InitializeComponent();
 
-            //Crashes.TrackError(new Exception("Custom Exception Added"));
+            Crashes.TrackError(new Exception("Custom Exception Added"));
 
-            //try
-            //{
-            //    throw new Exception("My custom exception throw from here");
-            //}
-            //catch (Exception ex)
-            //{
+            try
+            {
+                throw new Exception("My custom exception throw from here");
+            }
+            catch (Exception ex)
+            {
 
-            //    Crashes.TrackError(ex);
-            //}
+                Crashes.TrackError(ex);
+            }
         }
     }
 }

@@ -12,7 +12,7 @@ namespace App3.Views
 		public MainPage ()
 		{
 			InitializeComponent ();
-            //Analytics.TrackEvent("Evnet for MainPage");
+            Analytics.TrackEvent("Evnet for MainPage");
         }
 	}
 }
