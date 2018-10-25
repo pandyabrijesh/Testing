@@ -13,4 +13,3 @@ C:\Users\bapandya\Documents\GitHub\Testing\App3\App3\obj\Release\netstandard2.0\
 C:\Users\bapandya\Documents\GitHub\Testing\App3\App3\obj\Release\netstandard2.0\XamlC.stamp
 C:\Users\bapandya\Documents\GitHub\Testing\App3\App3\obj\Release\netstandard2.0\App3.dll
 C:\Users\bapandya\Documents\GitHub\Testing\App3\App3\obj\Release\netstandard2.0\App3.pdb
-C:\Users\bapandya\Documents\GitHub\Testing\App3\App3\obj\Release\netstandard2.0\App3.csprojAssemblyReference.cache
