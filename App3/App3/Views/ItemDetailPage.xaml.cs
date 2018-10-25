@@ -33,7 +33,7 @@ namespace App3.Views
 
             viewModel = new ItemDetailViewModel(item);
             BindingContext = viewModel;
-            Analytics.TrackEvent("Evnet for ItemDetailPage");
+           // Analytics.TrackEvent("Evnet for ItemDetailPage");
         }
     }
 }
