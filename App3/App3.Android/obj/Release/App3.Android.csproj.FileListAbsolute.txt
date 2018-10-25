@@ -92,6 +92,7 @@ C:\Users\bapandya\Documents\GitHub\Testing\App3\App3.Android\obj\Release\android
 C:\Users\bapandya\Documents\GitHub\Testing\App3\App3.Android\obj\Release\android\assets\Xamarin.Forms.Core.pdb
 C:\Users\bapandya\Documents\GitHub\Testing\App3\App3.Android\obj\Release\android\assets\Xamarin.Forms.Xaml.pdb
 C:\Users\bapandya\Documents\GitHub\Testing\App3\App3.Android\bin\Release\App3.Android.dll
+C:\Users\bapandya\Documents\GitHub\Testing\App3\App3.Android\obj\Release\linksrc\App3.pdb
 C:\Users\bapandya\Documents\GitHub\Testing\App3\App3.Android\obj\Release\linksrc\App3.Android.dll.mdb
 C:\Users\bapandya\Documents\GitHub\Testing\App3\App3.Android\obj\Release\linksrc\FormsViewGroup.dll.mdb
 C:\Users\bapandya\Documents\GitHub\Testing\App3\App3.Android\obj\Release\linksrc\Xamarin.Forms.Platform.Android.dll.mdb
