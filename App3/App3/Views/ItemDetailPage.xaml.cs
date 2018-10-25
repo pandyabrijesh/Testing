@@ -5,6 +5,7 @@ using Xamarin.Forms.Xaml;
 
 using App3.Models;
 using App3.ViewModels;
+using Microsoft.AppCenter.Analytics;
 
 namespace App3.Views
 {
@@ -32,6 +33,7 @@ namespace App3.Views
 
             viewModel = new ItemDetailViewModel(item);
             BindingContext = viewModel;
+            Analytics.TrackEvent("Evnet for ItemDetailPage");
         }
     }
 }

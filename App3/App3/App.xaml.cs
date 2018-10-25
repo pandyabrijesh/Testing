@@ -15,9 +15,7 @@ namespace App3
         public App()
         {
             InitializeComponent();
-
             AppCenter.Start("android=de525739-817f-494b-8b99-eeaa7bfa33ee;ios=f9f59949-06c5-4684-9eff-c98391d9c255", typeof(Analytics), typeof(Crashes));
-
             MainPage = new MainPage();
         }
 

@@ -10,6 +10,7 @@ using Xamarin.Forms.Xaml;
 using App3.Models;
 using App3.Views;
 using App3.ViewModels;
+using Microsoft.AppCenter.Analytics;
 
 namespace App3.Views
 {
@@ -23,6 +24,7 @@ namespace App3.Views
             InitializeComponent();
 
             BindingContext = viewModel = new ItemsViewModel();
+            Analytics.TrackEvent("Evnet for ItemsPage");
         }
 
         async void OnItemSelected(object sender, SelectedItemChangedEventArgs args)
@@ -45,6 +47,7 @@ namespace App3.Views
         protected override void OnAppearing()
         {
             base.OnAppearing();
+            Analytics.TrackEvent("Evnet for ItemsPage OnAppearing");
 
             if (viewModel.Items.Count == 0)
                 viewModel.LoadItemsCommand.Execute(null);
